@@ -1,0 +1,120 @@
+/* body is the class and you can assign properties and values to it. */
+/* creates a comment which can be very helpful. (Make sure you use end it properly or it will mess up your code. */
+/* font-size you can use px for pixels or rem to size text. You can also use em to size text as well. */
+
+body {background-color:#f8f8ff;
+    color: black;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;   
+}
+
+h1 {color: white;}
+
+h2,
+h3 {
+    font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1.6px; /*letter-spacing is the space between the letters. */
+    font-size: 3.0rem;
+    border-bottom: 3px; color:royalblue; /*border bottom is the line under the element. */
+    margin-top: 24px; /*margin-top is space outside the element. */
+    text-decoration-line: underline; /*text-decoration has options to underline text or other options etc. (style your text.) */
+    text-shadow: 3px 6px 6px rgba(48, 22, 0, 0.4); /*text-shadow creates a shadow around text using rgba (red,green,blue,alpha(transparency, number than than 1.0) */
+    
+}
+
+
+p { margin: 6px 6px 6px;} /*margin is the areas around the page. (top, middle, bottom, edges) */
+
+.intro {font-size: 1.4rem;
+        font-style: normal; /*font-style allows you to style font (italic or bold or normal etc.)*/
+
+
+}
+
+/*strong and p & h1,h2, h3 are classes that can be styled if specified in the selector using CSS. */
+
+strong {font-weight:bold ; /*font-weight is the thickness (or lightness) of the letters (can be lighter (lighter text, or thicker for bold text.) */
+    color: darkblue;
+
+}
+
+a:hover {text-decoration: none; /*a: hover is used to show a link when you hover over it, or could be an element. */
+
+}
+
+a:focus-visible {color: gold;} /*a:focus when you tab, it colors the area where you are on the page and links. */
+
+
+.site-header { background-color: blue;
+                color: white;
+                text-align: center;
+                padding: 40px 20px;
+                text-transform: uppercase;
+                max-width: 100%;
+                margin: 0 auto;
+
+}
+
+.tagline {letter-spacing: 1.6px;
+        margin: 4px 0px 0px;
+        text-transform: uppercase;
+        font-size: 0.95rem;
+
+}
+
+.container {max-width: 800px;
+    margin: 0 auto ; /*margin: 0 auto centers the column to the center of the web-page. */
+    padding: 0  20px 40px;
+
+}
+
+.card {background-color:skyblue;
+        border: solid 3px rgb(0, 10, 150);
+        border-left: dotted 5px cornflowerblue; /*border left changes just the left side of the border. */
+        border-radius: 12px; /*border radius is border  (changing the shape of the borders or styling it.) */
+        padding: 12px;
+        margin: 25px 0;
+        max-width: 400px;
+        box-shadow: 0 8px 20px rgb(128, 177, 255);
+        
+
+}
+
+.card h3{margin: 0 0 12px;
+        font-size: 1.6rem;
+        color: navy;
+
+}
+
+.button {display:inline-block; /*display:inline block lets the link create a button which can be seen. */
+        background-color:midnightblue;
+        color: white;
+        padding: 16px 24px;
+        border-radius: 3px;
+        text-decoration: none;
+        margin-top: 12px;
+}
+
+
+.button:hover { background-color: blue; /*button:hover changes colors when you hover over the link (helps tell its a link) */
+}
+
+
+ul {list-style-type: circle;
+    padding-left: 12px;
+
+}
+
+li {margin-bottom: 8px;
+
+}
+
+
+.site-footer {text-align: center ;
+            font-size: 0.9rem;
+            color: darkblue;
+            border-top: 2px solid dodgerblue;
+            padding: 10px;
+}
